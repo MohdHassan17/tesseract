@@ -1,0 +1,90 @@
+.formContainer{
+    width: 380px;
+    height: 400px;
+    background-color: #141318d7;
+    display: flex;
+    flex-direction: column;
+ 
+    border-radius: 36px;    
+    padding: 25px;
+    border: 2px solid var(--primary-color)
+
+}
+
+
+.formHeading{
+    font-size: 25px;
+}
+
+.formHeading>span{
+    color: var(--primary-color);
+    
+}
+
+
+.form{
+    height: 100%;
+    display: flex;
+    
+ 
+    padding-top:10px;
+        flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 7px;
+   
+}
+
+.input{
+    width: 100%;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 10px;
+    border-radius: 26px;
+    outline:none;
+}
+
+.input::placeholder, .textArea::placeholder{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.input>option{
+     color: var(--primary-color);
+    
+      font-weight: 400;
+    font-size: 13px;
+}
+
+.select{
+    
+      font-weight: 400;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.textArea{
+    width: 100%;
+   background-color: white;
+    color: var(--primary-color);
+    padding: 10px;
+    border-radius: 26px;
+    resize: none;
+}
+
+
+
+.submit{
+    width: 100%;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 26px;
+    font-weight: 600;
+}
+
+
+.input[type='text']:focus{
+    border: none;
+}

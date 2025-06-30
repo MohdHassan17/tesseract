@@ -1,0 +1,47 @@
+.heading{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+;
+    
+}
+
+
+.subheading{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.mainHeading{
+    display: inline;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin:0;
+    padding-left: 20px;
+}
+
+.purpleHeading{
+    color: var(--primary-color);
+}
+
+.blackHeading{
+    color: #171717;
+}
+
+@media screen and (max-width: 768px) {
+    .heading{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   .mainHeading{
+    font-size: 2rem;
+   }
+}

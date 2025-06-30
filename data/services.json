@@ -1,0 +1,353 @@
+[
+  {
+    "slug": "custom-software-development",
+    "title": "Custom Software",
+    "description": "We build tailor-made software solutions that fit your exact business needs — from internal tools to customer-facing platforms. Whether it's automation, dashboards, or custom CRMs, we deliver reliable, scalable systems.",
+    "shortDescription": "Custom business solutions",
+    "techStack": false,
+    "features": [
+      {
+        "title": "Tailored Business Logic",
+        "description": "We build systems that match your unique workflows and logic.",
+        "icon": "FaDesktop"
+      },
+      {
+        "title": "Performance-Driven Codebase",
+        "description": "Efficient, fast, and reliable software from backend to frontend.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Scalable Architecture",
+        "description": "Your software can grow as your business scales up.",
+        "icon": "HiOutlineScale"
+      },
+      {
+        "title": "Secure Access & Roles",
+        "description": "Role-based permissions and data security baked in.",
+        "icon": "FaLock"
+      },
+      {
+        "title": "UI that Fits the Function",
+        "description": "Interfaces are clean, usable, and built for productivity.",
+        "icon": "FiFeather"
+      },
+      {
+        "title": "Automation-Ready Design",
+        "description": "Designed for workflows, notifications, and integrations.",
+        "icon": "AiOutlineSync"
+      }
+    ]
+  },
+  {
+    "slug": "web-development",
+    "title": "Web Development",
+    "description": "We build fast, scalable, and fully responsive websites using modern frameworks like Next.js and Django. Whether it's a landing page or a complex web portal, our code is clean, SEO-optimized, and tailored to convert visitors into customers.",
+    "shortDescription": "Fast scalable websites",
+    "techStack": true,
+    "features": [
+      {
+        "title": "SEO-Optimized Structure",
+        "description": "Clean HTML and structured data help you rank higher in search results.",
+        "icon": "BiSearchAlt"
+      },
+      {
+        "title": "Modern Frameworks",
+        "description": "We build with cutting-edge stacks like Next.js and Django.",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "title": "Mobile-First Design",
+        "description": "Every layout adapts beautifully to phones, tablets, and desktops.",
+        "icon": "FaMobileAlt"
+      },
+      {
+        "title": "Blazing Fast Performance",
+        "description": "We optimize every element for lightning-fast loading speeds.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Conversion-Driven Layouts",
+        "description": "We design with business goals in mind — more leads, more sales.",
+        "icon": "FaBullseye"
+      },
+      {
+        "title": "Scalable Architecture",
+        "description": "Sites are ready to grow with your traffic and features.",
+        "icon": "HiOutlineScale"
+      }
+    ]
+  },
+  {
+    "slug": "graphic-designing",
+    "title": "Graphic Designing",
+    "description": "From eye-catching posters to sleek UI designs, our graphic design team crafts visual assets that elevate your brand identity. We focus on detail, aesthetics, and usability to create designs that speak volumes and spark engagement.",
+    "shortDescription": "Eye-catching visual content",
+    "techStack": false,
+    "features": [
+      {
+        "title": "Brand-Aligned Visuals",
+        "description": "We ensure every design element reflects your brand identity.",
+        "icon": "FaPalette"
+      },
+      {
+        "title": "Attention-Grabbing Concepts",
+        "description": "We create designs that stand out and make people look twice.",
+        "icon": "FaBullseye"
+      },
+      {
+        "title": "Optimized for Print & Web",
+        "description": "Designs are ready for all platforms — digital or physical.",
+        "icon": "FaDesktop"
+      },
+      {
+        "title": "Emotionally Engaging",
+        "description": "Our visuals evoke the right emotions for your audience.",
+        "icon": "FaHeart"
+      },
+      {
+        "title": "Typography & Layout Mastery",
+        "description": "We use balance, contrast, and hierarchy for stunning layouts.",
+        "icon": "FiFeather"
+      },
+      {
+        "title": "Social Media Ready",
+        "description": "Optimized sizes and visuals for every major platform.",
+        "icon": "RiChatSmile3Line"
+      }
+    ]
+  },
+  {
+    "slug": "mobile-app-development",
+    "title": "Mobile App Development",
+    "description": "We develop powerful mobile apps for iOS and Android that deliver seamless user experiences. Built with frameworks like React Native and Flutter, our apps are fast, secure, and feature-rich — ready to help you dominate the mobile space.",
+    "shortDescription": "Cross-platform mobile apps",
+    "techStack": true,
+    "features": [
+      {
+        "title": "Cross-Platform Power",
+        "description": "We use frameworks that let us build for iOS and Android together.",
+        "icon": "FaMobileAlt"
+      },
+      {
+        "title": "Intuitive User Interfaces",
+        "description": "Apps are designed to feel native and easy to use.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Offline Capabilities",
+        "description": "Your app can work even when the user is offline.",
+        "icon": "RiWifiOffLine"
+      },
+      {
+        "title": "Push Notifications",
+        "description": "Engage your users with real-time updates and alerts.",
+        "icon": "IoMdNotificationsOutline"
+      },
+      {
+        "title": "Secure Authentication",
+        "description": "Built-in support for login, roles, and protected routes.",
+        "icon": "FaLock"
+      },
+      {
+        "title": "App Store Ready",
+        "description": "We help you publish on Google Play and the App Store smoothly.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  {
+    "slug": "desktop-app-development",
+    "title": "Desktop App Development",
+    "description": "Get custom desktop applications that are stable, high-performance, and compatible across Windows, macOS, and Linux. We use technologies like Electron and .NET to bring you powerful tools tailored for productivity and user convenience.",
+    "shortDescription": "Powerful desktop applications",
+    "techStack": true,
+    "features": [
+      {
+        "title": "Cross-Platform Deployment",
+        "description": "Apps work seamlessly on Windows, Mac, and Linux.",
+        "icon": "FaDesktop"
+      },
+      {
+        "title": "Rich Desktop Interfaces",
+        "description": "Designs feel native and smooth, just like native apps.",
+        "icon": "FiFeather"
+      },
+      {
+        "title": "Real-Time Syncing",
+        "description": "Built-in background syncing and auto-updates.",
+        "icon": "AiOutlineSync"
+      },
+      {
+        "title": "Secure Storage",
+        "description": "Data is encrypted and securely stored on device or cloud.",
+        "icon": "FaLock"
+      },
+      {
+        "title": "Fast & Stable Performance",
+        "description": "Low memory usage and high-speed rendering.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Custom Plugin Support",
+        "description": "Extend functionality with integrations or plugins.",
+        "icon": "FaBullseye"
+      }
+    ]
+  },
+  {
+    "slug": "branding",
+    "title": "Branding & Identity Design",
+    "description": "We create complete brand identity systems — including logos, brand guidelines, typography, color theory, and visual strategy. Our goal is to establish a unique, memorable presence for your business across all digital and print platforms.",
+    "shortDescription": "Complete brand identity",
+    "techStack": false,
+    "features": [
+      {
+        "title": "Logo & Iconography",
+        "description": "Memorable logos that define your business identity.",
+        "icon": "FaHashtag"
+      },
+      {
+        "title": "Color & Typography Systems",
+        "description": "Professional brand palettes and type setups.",
+        "icon": "FaPalette"
+      },
+      {
+        "title": "Social Identity Kits",
+        "description": "Brand collateral for LinkedIn, Instagram, and more.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Visual Consistency",
+        "description": "Ensure every touchpoint matches your branding.",
+        "icon": "AiOutlineSync"
+      },
+      {
+        "title": "Emotionally Aligned Messaging",
+        "description": "Colors and style crafted to align with customer emotion.",
+        "icon": "FaHeart"
+      },
+      {
+        "title": "Print & Packaging Assets",
+        "description": "Brochures, bags, cards — we’ve got you covered.",
+        "icon": "FaDesktop"
+      }
+    ]
+  },
+  {
+    "slug": "social-media-marketing",
+    "title": "Social Media Marketing",
+    "description": "Boost your online presence with performance-driven social media campaigns. We create engaging content, manage your profiles, and run data-backed ads to increase brand visibility, grow your followers, and drive real conversions.",
+    "shortDescription": "Social growth strategy",
+    "techStack": false,
+    "features": [
+      {
+        "title": "Content That Converts",
+        "description": "Visual and text content optimized for each platform.",
+        "icon": "FaBullseye"
+      },
+      {
+        "title": "Scheduled Campaigns",
+        "description": "We post consistently and strategically for best results.",
+        "icon": "AiOutlineSync"
+      },
+      {
+        "title": "Performance Monitoring",
+        "description": "Analytics-driven decisions for improved ROI.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Audience Growth",
+        "description": "Organic and paid strategies to grow your followers.",
+        "icon": "FaHeart"
+      },
+      {
+        "title": "Platform-Specific Design",
+        "description": "Posts tailored perfectly for Instagram, Facebook, and X.",
+        "icon": "FaMobileAlt"
+      },
+      {
+        "title": "Engagement Management",
+        "description": "We respond, moderate, and engage with your audience.",
+        "icon": "RiChatSmile3Line"
+      }
+    ]
+  },
+  {
+    "slug": "shopify-development",
+    "title": "Shopify Development",
+    "description": "We create high-converting Shopify stores tailored to your brand — with custom themes, seamless checkout flows, and app integrations to grow your e-commerce business.",
+    "shortDescription": "Shopify eCommerce stores",
+    "techStack": false,
+    "features": [
+      {
+        "title": "Custom Storefronts",
+        "description": "Branded themes and layouts that sell more with Shopify.",
+        "icon": "FaPalette"
+      },
+      {
+        "title": "Optimized Checkout",
+        "description": "Frictionless checkout experience to reduce cart abandonment.",
+        "icon": "FaBullseye"
+      },
+      {
+        "title": "Mobile-Ready Design",
+        "description": "Your store looks amazing and functions perfectly on phones.",
+        "icon": "FaMobileAlt"
+      },
+      {
+        "title": "App Integrations",
+        "description": "Link your store to CRMs, marketing, shipping, and more.",
+        "icon": "AiOutlineSync"
+      },
+      {
+        "title": "SEO Best Practices",
+        "description": "We structure pages for visibility and search engine reach.",
+        "icon": "BiSearchAlt"
+      },
+      {
+        "title": "Analytics & Insights",
+        "description": "Track performance and user behavior to boost results.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  {
+    "slug": "wordpress-development",
+    "title": "WordPress Development",
+    "description": "We design and develop stunning WordPress websites — whether it’s a business site, blog, or complex portal — optimized for speed, SEO, and easy content management.",
+    "shortDescription": "Custom WordPress sites",
+    "techStack": false,
+    "features": [
+      {
+        "title": "Custom Themes & Layouts",
+        "description": "Unique frontends that reflect your brand and purpose.",
+        "icon": "FaPalette"
+      },
+      {
+        "title": "SEO-Optimized Pages",
+        "description": "Every page is structured to rank and convert.",
+        "icon": "BiSearchAlt"
+      },
+      {
+        "title": "Easy Admin Controls",
+        "description": "Manage content, pages, and blogs with a simple UI.",
+        "icon": "FaDesktop"
+      },
+      {
+        "title": "Plugin Integration",
+        "description": "We integrate only well-supported and secure plugins.",
+        "icon": "AiOutlineSync"
+      },
+      {
+        "title": "Fast Loading Times",
+        "description": "Performance is a priority — even with complex pages.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Mobile Responsiveness",
+        "description": "Optimized layouts across all screen sizes and devices.",
+        "icon": "FaMobileAlt"
+      }
+    ]
+  }
+]
