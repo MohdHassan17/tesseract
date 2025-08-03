@@ -2,19 +2,15 @@ import styles from "@/public/css/ui/Heading.module.css";
 
 import Image from "next/image";
 
-function Heading({ subheading, headingWhite, headingBlack, headingPurple }) {
+function Heading({ subheading, headingWhite, headingBlack, headingPurple, alignment }) {
   return (
-    <div className={styles.heading}>
+    <div className={
+      alignment === "left" ? `${styles.heading} ${styles.left}` :
+      `${styles.heading}`}>
       <h2 className={styles.subheading}>
-        <Image
-          src={"/assets/ui/ellipse.png"}
-          alt="Ellipse"
-          width={50}
-          height={50}
-          className={styles.ellipse}
-        />
-
-        {subheading}
+ 
+        <span>{subheading}</span>
+        
       </h2>
 
       <h2 className={styles.mainHeading}>

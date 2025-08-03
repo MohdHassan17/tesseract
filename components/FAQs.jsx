@@ -58,16 +58,28 @@ function FAQs() {
   return (
     <section className={styles["faqs-section"]}>
       <div className={styles["faqs-wrapper"]}>
-        <div className="section-wrapper">
-          <Heading
-            subheading="FAQs"
-            headingWhite="Learn"
-            headingPurple="More"
-          />
+        <div className="section-wrapper flex flex-col gap-10 md:flex-row flex-wrap   ">
+          <div className="flex-1 flex flex-col jusitfy-start gap-[25px] pr-10">
+            {" "}
+            <Heading
+              subheading="FAQs"
+              headingWhite="Learn"
+              headingPurple="More"
+              alignment={"left"}
+            />
 
-          <div className={styles["faq-container"]}>
+
+          <p className="text-base md:text-lg text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellendus laboriosam iste fugit, cum, asperiores omnis reiciendis, laudantium qui error saepe tempore distinctio at voluptates exercitationem accusamus ducimus similique facere recusandae. Odio tempore repellendus unde tempora nemo commodi quibusdam doloribus.</p>
+          </div>
+
+          <div className={`${styles["faq-container"]} flex-1`}>
             {FAQs.map((faq) => (
-              <div className={styles["faq"]} key={faq.id} onClick={() => openFunc(faq.id)}  data-aos="fade-up">
+              <div
+                className={styles["faq"]}
+                key={faq.id}
+                onClick={() => openFunc(faq.id)}
+                data-aos="fade-up"
+              >
                 <div className={styles["faq-title"]}>
                   <h2>Why Should We Choose You?</h2>
                   <span className={styles.plus}>

@@ -64,14 +64,13 @@ export default function ProcessFlow() {
                 <div
                   className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto"
                   key={process.id}
-                  data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom"
+                
                 >
                   <div className="h-full w-6 absolute inset-0 flex items-center justify-center" >
                     <div className="h-full w-1 bg-black pointer-events-none"></div>
                   </div>
                   <div
-                    className="flex-shrink-0 w-7 h-7 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center  text-black relative z-10 title-font font-medium text-sm"
+                    className="flex-shrink-0 w-7 h-7 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center  text-black relative z-9 title-font font-medium text-sm text-center "
                     style={{ backgroundColor: "#C77DFF", fontWeight: "bold" }}
                   >
                     {(process.id += 1)}
@@ -82,12 +81,13 @@ export default function ProcessFlow() {
                       style={{
                         color: "#f6f6f6",
                         background:
-                          "linear-gradient(to bottom, #5A189A, #10002B",
+                          "linear-gradient(to bottom, #6e00ff, #10002B",
                       }}
                     >
                       {<process.img className="w-12 h-12" />}
                     </div>
-                    <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <div className="flex-grow sm:pl-6 mt-6 sm:mt-0"  data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
                       <h2
                         className="font-medium  mb-1  "
                         style={{

@@ -29,9 +29,9 @@ function Navbar() {
                     styles["nav-links"],
                     nav == true ? styles["nav-open"] : ''
                   )}>
-        <Link href="/services" className={styles['nav-link']}>Our Services</Link>
-        <Link href="#" className={styles['nav-link']}>About</Link>
-        <Link href="#" className={styles['nav-link']}>Our Work</Link>
+        <Link href="/services" className={styles['nav-link']} onClick={() => toggleNav()}>Our Services</Link>
+        <Link href="/about" className={styles['nav-link']} onClick={() => toggleNav()}>About</Link>
+        <Link href="#" className={styles['nav-link']} onClick={() => toggleNav()}>Our Work</Link>
 
     </div>
 

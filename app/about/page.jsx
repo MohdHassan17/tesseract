@@ -1,4 +1,7 @@
 
+import FAQs from '@/components/FAQs'
+import ProcessFlow from '@/components/ProcessFlow'
+import Testimonials from '@/components/Testimonials'
 import styles from '@/public/css/About.module.css'
 import Button from '@/ui/Button'
 import Image from 'next/image'
@@ -29,6 +32,16 @@ function About() {
       </div>
 
       </div>
+
+      <div className={styles.messageContainer}>
+        
+      </div>
+
+      < Testimonials/>
+
+      <ProcessFlow/>
+      
+      <FAQs/>
  
     
     

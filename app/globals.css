@@ -2,8 +2,8 @@
 
 
 :root {
-  --primary-color: #572C86;
-  --secondary-color: #EC1984;
+  --primary-color: #6e00ff;
+  --secondary-color: #ff00e6;
   --primary-font: var(--font-montserrat);
   --secondary-font: var(--font-montserrat);
 }
@@ -11,7 +11,7 @@
 body {
   font-family: var(--font-montserrat)!important;
   font-weight: 400; /* Or 500, 600, 700 — variable font supports all */
-  background-color: #000000;
+background-color: #000000;
   color:#f6f6f6;
   padding: 0;
   margin: 0;
@@ -20,10 +20,11 @@ body {
 }
 
 h1,h2{
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /* Important */
+
 
 .section-wrapper{
     width: 88%;
@@ -32,5 +33,29 @@ h1,h2{
     padding: 100px 20px;
   
 }
+
+
+/* Scrollbar Styles */
+
+::-webkit-scrollbar {
+  width: 5px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #141318;  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+
+
 
 

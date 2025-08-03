@@ -2,23 +2,17 @@
 
 .hero-section {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   display: flex;
   overflow: hidden;
+
+  background-image: url('/assets/section/services-bg.png') ;
+  background-size: cover;
+  background-position: center center;
 }
 
-.bg-img {
-  position: absolute;
-
-  
-  width: 100%;
-  height: 100%;
-
-  z-index: -1;
-  object-fit: cover;
-}
 
 
 /* 
@@ -46,14 +40,15 @@
 
   flex-direction: column;
   text-align: center;
-  margin-top: 0px;
   flex: 1;
+  padding-bottom: 10%;
 }
 
 .hero-title {
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 600;
   color: #f6f6f6;
+  
 }
 
 
@@ -76,19 +71,22 @@
 .heroText{
   text-align: left;
   padding-left: 100px;
+ 
 }
 
 .heroPara{
   padding-left: 20px;
+   padding-top: 20px;
 }
 /* Services Cards */
 
 
 .services-section {
   width: 100%;
-   background-image: url("/assets/section/clientele-bg.png");
+  background-image: url('/assets/ui/line-vector.svg');
 background-size: cover;
-  background-position: center
+background-attachment: fixed;
+
 }
 
 
@@ -172,7 +170,8 @@ background-size: 100vh;
 @media screen and (max-width: 768px){
   .hero-section{
      height: auto;
-    min-height: 120vh;
+    min-height: 100vh;
+   
    
   }
   .heroWrapper{
@@ -180,5 +179,24 @@ background-size: 100vh;
     
     flex-direction: column;
     padding-bottom: 50px;
+    gap: 50px;
+  }
+
+  .hero-content{
+    padding: 15px;
+  }
+  .heroText{
+
+      text-align: center;
+  padding-left: 0;
+  }
+
+  .heroPara{
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  .formWrapper{
+    padding: 0 10px;
   }
 }

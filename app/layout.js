@@ -2,7 +2,7 @@
 
 
 
-import {Montserrat, Poppins} from "next/font/google";
+import { Jost, Outfit} from "next/font/google";
 import "./globals.css";
 
 // Component Import
@@ -10,8 +10,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"
 
 import AOSInitializer from "@/ui/AOSInitializer";
+import ContactToggle from "@/ui/ContactToggle";
 
-const montserrat = Poppins({
+const montserrat = Jost({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-montserrat', // optional, for CSS usage
@@ -41,10 +42,12 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
-      <body className={`${montserrat.variable} antialiased`}>
+      <body className={`${montserrat.variable} antialiased relative`}>
         <AOSInitializer/>
         <Navbar/>
-        {/* <Navbar /> */}
+        <ContactToggle/>
+        
+        {/* <Navbar /> */} 
         {children}
         <Footer/>
       </body>

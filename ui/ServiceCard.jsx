@@ -10,26 +10,22 @@ import Link from "next/link";
 
 export default function ServiceCard({ title, description, imageSrc, href }) {
   return (
-    
-       <div className={styles["service-card"]} >
-     <div className={styles.serviceWrapper}>
-        <div className={styles["service-image-container"]}>
-          <Image
-            src={`${imageSrc}`}
-            alt={title}
-            fill
-            className={styles["service-image"]}
-          />
-        </div>
+      <div className={styles.serviceWrapper}>
+             <div className={styles["service-card"]} >
+
+     
 
         <div className={styles["service-content"]}>
           <h2 className={styles["service-title"]}>{title}</h2>
           <p className={styles['service-description']}>{description}</p>
-           <Link href={`${href}`}> <span className={styles.cardBtn}><LuArrowRight size={20}/></span></Link>
-    </div>
+          <span>  <Link href={`${href}`}> <div className={styles.cardBtn}><LuArrowRight size={20} color="#6e00ff"/></div></Link></span>
+          
+    
     
     </div>
     </div>
+      </div>
+      
    
   );
 }

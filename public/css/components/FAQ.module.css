@@ -1,21 +1,18 @@
 .faqs-section{
     width: 100%;
    
-background-image: url('/assets/ui/wirenet.png');;
-background-size: 100vh;
-  background-position: center center;
+background-image: url('/assets/ui/line-vector.svg');
+background-size: cover;
 }
 
 .faqs-wrapper{
     width: 100%;
     height: 100%;
-      background-image: url("/assets/section/clientele-bg.png");
-background-size: cover;
-  background-position: center
+ 
 }
 
 .faq-container{
-   margin-top: 70px;
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -27,9 +24,9 @@ background-size: cover;
 .faq{
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: #171717;
   border-radius: 16px;
-  border: 1.5px solid var(--primary-color)
+
 }
 
 .faq-title{
@@ -63,9 +60,14 @@ background-size: cover;
 .faq-open{
    display: block;
   
+  
 }
 
-
+.faq-shadow{
+  filter: drop-shadow(0 0 5px var(
+--primary-color
+  ));
+}
 
 
 
