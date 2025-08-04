@@ -59,7 +59,7 @@ function FAQs() {
     <section className={styles["faqs-section"]}>
       <div className={styles["faqs-wrapper"]}>
         <div className="section-wrapper flex flex-col gap-10 md:flex-row flex-wrap   ">
-          <div className="flex-1 flex flex-col jusitfy-start gap-[25px] pr-10">
+          <div className="flex-1 flex flex-col lg:jusitfy-start justify-center gap-[25px] lg:pr-10">
             {" "}
             <Heading
               subheading="FAQs"

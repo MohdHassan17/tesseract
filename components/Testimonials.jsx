@@ -72,7 +72,7 @@ const testimonials = [
 
   return (
     <section className="relative w-full bg-[radial-gradient(circle_at_left_center,_#79006d_0%,_transparent_35%)] md:bg-[radial-gradient(circle_at_left_center,_#79006d_0%,_transparent_55%)] pb-[10%]">
-      <div className="section-wrapper">
+      <div className="container py-20 mx-auto">
         {/* Header Section */}
         <div className="flex flex-col items-center justify-center text-center gap-8">
           <Heading
@@ -112,7 +112,7 @@ const testimonials = [
           {testimonials.map((t, index) => (
             <div
               key={index}
-className={`testimonial-card relative w-[90%]  h-[350px] md:h-[350px] sm:h-[450px] rounded-[26px] bg-black/60 border border-[#535353] shadow-lg backdrop-blur-md transition-transform duration-[800ms]`}
+className={`testimonial-card relative w-[90%]  min-h-[350px] rounded-[26px] bg-black/60 border border-[#535353] shadow-lg backdrop-blur-md transition-transform duration-[800ms]`}
               style={{
                 transform: `scale(${activeIndex === index ? 1 : 0.9})`,
               }}
@@ -121,8 +121,8 @@ className={`testimonial-card relative w-[90%]  h-[350px] md:h-[350px] sm:h-[450p
               <div className="absolute top-5 right-5 w-10 h-10 bg-[url('/assets/ui/quotes.svg')] bg-contain bg-no-repeat bg-center"></div>
 
               {/* Card Content */}
-              <div className="w-full h-full flex flex-col p-6 md:p-10">
-                <div className="flex-grow flex items-center text-base md:text-2xl font-thin text-white mb-4">
+              <div className="w-full h-full flex flex-col p-6 md:p-10 gap-6">
+                <div className="flex-grow flex items-center text-base md:text-2xl font-thin text-white mb-4m mt-10">
                   <p>{t.quote}</p>
                 </div>
 

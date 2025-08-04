@@ -43,21 +43,16 @@ export default function CaseStudiesSection() {
   return (
     <section className={` ${styles.caseStudyContainer} py-20 my-16`}>
       <Image src={'/assets/section/clientele-bg.png'} width={10} height={10} className={styles.caseBG}/>
-      <div className="max-w-6xl mx-auto px-4 md:px-8 section-wrapper">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 ">
          
-        <div className="flex justify-between items-center mb-10">
+        <div className="flex justify-center items-center mb-10">
           <Heading
             subheading={"portfolio"}
             headingWhite={"Our"}
             headingPurple={"Projects"}
-            alignment={"left"}
+        
           />
-          <Link
-            href="/case-studies"
-            className="text-sm text-gray-600 hover:text-white hover:bg-purple-700 duration-300 ease-in-out transition rounded-full bg-white p-2"
-          >
-            More case studies →
-          </Link>
+        
         </div>
 
         <div

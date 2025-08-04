@@ -34,6 +34,13 @@ h1,h2{
   
 }
 
+@media (max-width: 768px) {
+  .section-wrapper {
+    width: 100%;
+    padding: 50px 20px;
+  }
+}
+
 
 /* Scrollbar Styles */
 
