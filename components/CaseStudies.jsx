@@ -8,41 +8,26 @@ import Heading from "@/ui/Heading";
 const caseStudies = [
   {
     id: 1,
-    title: "A Social Networking for Pets and Pet Owners",
+    title: "Nexifies Website and Portfolio",
     description:
-      "GoOrb is a trailblazing social networking app dedicated to pets and their owners.",
-    image: "/assets/card/webdev.jpg",
-    tag: "goOrb",
+      "We crafted a professional and mobile-responsive website for Nexifies, showcasing their portfolio and services.",
+    image: "/assets/card/nexifies.png",
+    tag: "Nexifies",
   },
   {
     id: 2,
-    title: "Official Website and App for Tulsa Airport",
+    title: "Website Redesign of At Ease Property Services",
     description:
-      "Tulsa Airport, a prominent travel institution, sought Cubet’s expertise to revamp its digital presence.",
-    image: "/assets/card/webdev.jpg",
-    tag: "Tulsa Airport",
-  },
-  {
-    id: 3,
-    title: "A Social Networking and Event Management App",
-    description:
-      "An all-in-one solution to discover parties, manage RSVPs, and grow communities.",
-    image: "/assets/card/webdev.jpg",
-    tag: "PartyApp",
-  },
-  {
-    id: 4,
-    title: "Multiplayer Tower Defense Game",
-    description: "WAGMI",
-    image: "/assets/card/webdev.jpg",
-    tag: "WAGMI",
-  },
+      "A complete overhaul of At Ease Property Services' website, enhancing user experience and aesthetics and showcasing their services in single-page layout",
+    image: "/assets/card/atease.png",
+    tag: "At Ease",
+  }
 ];
 
 export default function CaseStudiesSection() {
   return (
-    <section className={` ${styles.caseStudyContainer} py-20 my-16`}>
-      <Image src={'/assets/section/clientele-bg.png'} width={10} height={10} className={styles.caseBG}/>
+    <section className={` ${styles.caseStudyContainer} py-20 my-16 bg-fixed`}>
+      <Image src={'/assets/section/clientele-bg.png'} width={10} height={10} alt="Background Image" className={styles.caseBG}/>
       <div className="max-w-6xl mx-auto px-4 md:px-8 ">
          
         <div className="flex justify-center items-center mb-10">
@@ -68,7 +53,7 @@ export default function CaseStudiesSection() {
               <div className="aspect-[3/3] relative overflow-hidden rounded-xl shadow-md">
                 <Image
                   src={study.image}
-                  alt={study.title}
+                  alt={'Case Study Image'}
                   fill
                   className="object-cover"
                 />

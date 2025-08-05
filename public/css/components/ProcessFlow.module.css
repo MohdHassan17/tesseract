@@ -10,7 +10,8 @@
 .wrapper{
     width: 100%;
     height: 100%;
-    background-image: url("/assets/section/black-grid.png");
+    background-image: url("/assets/ui/line-vector-sec.svg");
   background-size: cover;
   background-position: center;;
+  background-attachment: fixed;
 }

@@ -43,7 +43,7 @@
     "title": "Design & Branding",
     "subheading": "Visuals that speak volumes",
     "description": "From UI/UX design to branding and packaging, we help you craft a visual identity that resonates with your audience. Our designs are not just beautiful, they’re functional and aligned with your business goals.",
-    "imageUrl": "assets/services/ui.jpg",
+    "imageUrl": "/assets/services/ui.jpg",
     "services": [
       {
         "title": "UI/UX Designing"

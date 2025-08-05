@@ -56,7 +56,7 @@ function FAQs() {
   ];
 
   return (
-    <section className={styles["faqs-section"]}>
+    <section className={`${styles["faqs-section"]} bg-fixed`}>
       <div className={styles["faqs-wrapper"]}>
         <div className="section-wrapper flex flex-col gap-10 md:flex-row flex-wrap   ">
           <div className="flex-1 flex flex-col lg:jusitfy-start justify-center gap-[25px] lg:pr-10">

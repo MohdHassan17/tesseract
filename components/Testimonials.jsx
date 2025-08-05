@@ -71,7 +71,7 @@ const testimonials = [
 
 
   return (
-    <section className="relative w-full bg-[radial-gradient(circle_at_left_center,_#79006d_0%,_transparent_35%)] md:bg-[radial-gradient(circle_at_left_center,_#79006d_0%,_transparent_55%)] pb-[10%]">
+    <section className="relative w-full bg-fixed bg-[radial-gradient(circle_at_left_center,_#79006d_0%,_transparent_35%)] md:bg-[radial-gradient(circle_at_left_center,_#79006d_0%,_transparent_55%)] pb-[10%]">
       <div className="container py-20 mx-auto">
         {/* Header Section */}
         <div className="flex flex-col items-center justify-center text-center gap-8">

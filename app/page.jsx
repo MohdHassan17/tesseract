@@ -6,7 +6,6 @@ import services from '@/data/services.json'
 // UI Import
 import Button from "@/ui/Button";
 import Heading from "@/ui/Heading";
-import ServiceCard from "@/ui/ServiceCard";
 import { FaPlus } from "react-icons/fa6";
 // Components Import
 import ProcessFlow from "@/components/ProcessFlow";
@@ -42,34 +41,7 @@ export default function Home() {
 
       {/* What We Do Section */}
 
-      <div className={`${styles["services-section"]} my-16 `}>
-        <div className="section-wrapper">
-          <Heading
-            subheading="Our Services"
-            headingWhite="What"
-            headingPurple="We do"
-          />
-
-          <div
-            className={styles["services-container"]}
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div className={styles["arrow"]}>+</div>
-            {services
-              .splice(0, 3) // Display only the first 3 services
-              .map((service) => (
-                <ServiceCard
-                  key={service.slug}
-                  imageSrc="/assets/card/webdev.jpg"
-                  title={service.title}
-                  description={service.shortDescription}
-                  href={`/services/${service.slug}`}
-                />
-              ))}
-          </div>
-        </div>
-      </div>
+      
 
             {/* Case Studies */}
 
