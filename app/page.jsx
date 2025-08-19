@@ -146,7 +146,7 @@ export default function Home() {
         </div>
 
         <div className={styles["statement-button"]}>
-          <Button text="Get Started" />
+          <Button text="Get Started" href='/services' />
         </div>
       </div>
 
