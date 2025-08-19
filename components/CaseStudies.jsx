@@ -11,7 +11,7 @@ const caseStudies = [
     title: "Nexifies Website and Portfolio",
     description:
       "We crafted a professional and mobile-responsive website for Nexifies, showcasing their portfolio and services.",
-    image: "/assets/card/nexifies.png",
+    image: "/assets/card/nexifies.webp",
     tag: "Nexifies",
   },
   {
@@ -19,7 +19,7 @@ const caseStudies = [
     title: "Website Redesign of At Ease Property Services",
     description:
       "A complete overhaul of At Ease Property Services' website, enhancing user experience and aesthetics and showcasing their services in single-page layout",
-    image: "/assets/card/atease.png",
+    image: "/assets/card/atease.webp",
     tag: "At Ease",
   }
 ];
@@ -41,7 +41,8 @@ export default function CaseStudiesSection() {
         </div>
 
         <div
-          className={` grid grid-cols-1 md:grid-cols-2 gap-20 `}
+          className={` grid grid-cols-1 md:grid-cols-2 gap-20  ` }  data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
         >
           {caseStudies.map((study, index) => (
             <div

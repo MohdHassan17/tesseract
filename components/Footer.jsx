@@ -19,7 +19,7 @@ function Footer() {
         
 
     <div className={styles['footer-logo-container']}>
-        <Image src="/assets/logo/footer-logo.svg" className={styles['footer-logo']} width={130} height={50}  alt="logo" />
+        <Image src="/assets/logo/tesseract.png" className={styles['footer-logo']} width={130} height={50}  alt="logo" />
     </div>
     <div className={styles['links-container']}>
         <div className={styles['links']}>
@@ -33,9 +33,19 @@ function Footer() {
 
         <div className={styles['links']}>
         <h3 className={styles["links-heading"]}>Overview</h3>
-        <Link href='#'  className={styles['link']} >About</Link>
-         <Link href='#'  className={styles['link']}>Services</Link>
-         <Link href='#'  className={styles['link']}>Contact Us</Link>
+        <Link href='/about'  className={styles['link']} >About</Link>
+         <Link href='/services'  className={styles['link']}>Services</Link>
+         <Link href='/blog'  className={styles['link']}>Blog</Link>
+        
+        </div>
+
+        
+        <div className={styles['links']}>
+        <h3 className={styles["links-heading"]}>Socials</h3>
+        <Link href='/about'  className={styles['link']} >Instagramn</Link>
+         <Link href='/services'  className={styles['link']}>Facebook</Link>
+         <Link href='/blog'  className={styles['link']}>LinkedIn</Link>
+         <Link href='/blog'  className={styles['link']}>X (Twitter)</Link>
         
         </div>
     </div>

@@ -3,8 +3,9 @@
     "slug": "web-development",
     "title": "Web Development",
     "subheading": "Crafting performant websites",
+    "small-desc": "Creating high-performance, scalable websites that support business growth, improve user experience, and ensure a strong presence across digital platforms.",
     "description": "We build high-performance, scalable web applications using modern technologies like Next.js, Django, and the MERN stack. Whether it's a custom solution or a CMS-powered site, our development ensures speed, reliability, and responsiveness.",
-    "imageUrl": "/assets/services/webdev.jpg",
+    "imageUrl": "/assets/services/webdev.webp",
     "services": [
       {
         "title": "Next.js Development"
@@ -24,8 +25,9 @@
     "slug": "ecommerce",
     "title": "Ecommerce",
     "subheading": "Selling made simple",
+    "small-desc": "We craft cohesive visual identities and design systems that strengthen brand presence, communicate clearly, and create lasting impressions across platforms.",
     "description": "From Shopify to custom-built platforms, we create eCommerce experiences designed to convert. Seamless checkout, responsive designs, and third-party integrations ensure your store performs across all devices and markets.",
-    "imageUrl": "/assets/services/ecom.jpg",
+    "imageUrl": "/assets/services/ecom.webp",
     "services": [
       {
         "title": "Shopify Development"
@@ -42,8 +44,9 @@
     "slug": "design-branding",
     "title": "Design & Branding",
     "subheading": "Visuals that speak volumes",
+    "small-desc": "We build scalable, secure e-commerce platforms focused on performance, user experience, and conversion — enabling businesses to sell confidently online.",
     "description": "From UI/UX design to branding and packaging, we help you craft a visual identity that resonates with your audience. Our designs are not just beautiful, they’re functional and aligned with your business goals.",
-    "imageUrl": "/assets/services/ui.jpg",
+    "imageUrl": "/assets/services/ui.webp",
     "services": [
       {
         "title": "UI/UX Designing"

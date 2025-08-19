@@ -89,20 +89,20 @@ export default function ProcessFlow() {
                     <div className="flex-grow sm:pl-6 mt-6 sm:mt-0"  data-aos="fade-up"
             data-aos-anchor-placement="center-bottom">
                       <h2
-                        className="font-medium  mb-1  "
+                        className="font-medium  mb-1 text-xl md:text-lg "
                         style={{
                           color: "#171717",
                           fontWeight: "bold",
                           textTransform: "uppercase",
                           fontWeight: "bolder",
-                          fontSize: "17px",
+                          
                         }}
                       >
                         {process.name}
                       </h2>
                       <p
-                        className="leading-relaxed font-medium  "
-                        style={{ fontSize: "13px" }}
+                        className="leading-relaxed font-medium text-base text-[#171717]"
+                       
                       >
                         {process.text}
                       </p>

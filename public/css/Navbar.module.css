@@ -1,18 +1,40 @@
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 65px;
+ 
+  
 
 
-  background-color: black;
+ position: fixed;
+ top: 20px; 
+ left: 50%;
+ transform: translateX(-50%);
+
 
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   padding: 0 25px;
 
+  border-radius: 200px;
+
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.8); /* semi-transparent black */
+  border-radius: 16px;
+  box-shadow:
+    0 4px 30px rgba(0, 0, 0, 0.5),   /* strong shadow */
+    0 0 60px rgba(0, 0, 0, 0.4);     /* soft black glow */
+  backdrop-filter: blur(25px);       /* very heavy blur */
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.1); /* subtle white border */
+
+
+
   
   z-index: 999;
-  position: relative;
+ 
+
+
 }
 
 .hamburger{
@@ -28,7 +50,7 @@
 }
 
 .nav-logo {
-  width: 130px;
+  width: 150px;
   height: auto;
 
   
@@ -42,6 +64,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-link {
@@ -49,7 +72,7 @@
   float: left;
   text-decoration: none;
   color: #f6f6f6;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: medium;
 
   padding: 10px 12px;
@@ -102,15 +125,16 @@
     background-color: #141318;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
     position: absolute;
     top: 65px;
     left: 0px;
     height: 100vh;
-    width: 100vw;
+    width: 120vw;
     padding-top: 50px;
     padding-left: 20px;
-    transform: translateX(-100vw);
-    transition: .5s ease-in-out;
+    transform: translateX(200vh);
+    transition: 1s ease-in-out;
   }
 
   .nav-open{
