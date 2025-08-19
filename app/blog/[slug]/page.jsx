@@ -71,7 +71,7 @@ function getAllH2HeadingsWithIds(richTextDocument) {
   }
 
   function traverse(node) {
-    if (node.nodeType === "heading-1 " || node.nodeType === "heading-2") {
+    if (node.nodeType === "heading-1" || node.nodeType === "heading-2") {
       const text = node.content
         .filter((child) => child.nodeType === "text")
         .map((child) => child.value)
@@ -92,7 +92,7 @@ export default async function BlogDetailPage({ params }) {
   const { slug } = await params;
   const post = await getBlog(slug);
   const headings = getAllH2HeadingsWithIds(post.fields.body);
-  console.log(headings);
+
 
   if (!post) {
     return <div className="container mx-auto pt-40">Blog post not found.</div>;

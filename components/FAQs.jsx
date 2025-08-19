@@ -19,7 +19,7 @@ function FAQs() {
       setIsOpen(id);
     }
 
-    console.log(isOpen);
+ 
   };
   const FAQs = [
     {

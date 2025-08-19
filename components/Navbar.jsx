@@ -14,7 +14,7 @@ function Navbar({onOpenModal}) {
   const [nav, setNav] = useState(false);
   const toggleNav = () => {
     setNav(!nav);
-    console.log(nav);
+   
   };
   return (
     <div className={styles.navbar}>
