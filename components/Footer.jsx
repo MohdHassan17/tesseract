@@ -42,7 +42,7 @@ function Footer() {
         
         <div className={styles['links']}>
         <h3 className={styles["links-heading"]}>Socials</h3>
-        <Link href='/about'  className={styles['link']} >Instagramn</Link>
+        <Link href='/about'  className={styles['link']} >Instagram</Link>
          <Link href='/services'  className={styles['link']}>Facebook</Link>
          <Link href='/blog'  className={styles['link']}>LinkedIn</Link>
          <Link href='/blog'  className={styles['link']}>X (Twitter)</Link>

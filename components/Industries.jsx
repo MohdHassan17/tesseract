@@ -57,26 +57,24 @@ function Industries() {
         />
 
         <p className="md:w-1/2 w-full text-xl md:text-2xl">
-We’ve partnered with clients across multiple industries, delivering tailored solutions to meet their unique challenges.
+          We’ve partnered with clients across multiple industries, delivering
+          tailored solutions to meet their unique challenges.
         </p>
       </div>
-      <div className="container mx-auto flex flex-col md:flex-row gap-10 pt-20 flex-wrap md:justify-between">
+      <div className="container mx-auto pt-20 flex-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 justify-center items-center">
         {/* Value Card */}
 
         {industries.map((industry, index) => (
           <div
-            className="flex flex-col p-5 w-full  md:w-[350px] gap-2  rounded-[26px]  bg-black/20 rounded-2xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-sm border-[.5px] border-[#171717]      bg-gradient-to-r from-[#171717] to-transparent"
+            className="flex flex-col p-5 w-full h-full gap-2  rounded-[26px]  bg-black/20 rounded-2xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-sm border-[.5px] border-[#171717]      bg-gradient-to-r from-[#171717] to-transparent"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             key={index}
           >
             <h2 className="font-bold text-2xl  bg-gradient-to-r from-[#6e00ff] to-[#ff00e6] bg-clip-text text-transparent">
-                {industry.title}
+              {industry.title}
             </h2>
-            <p className="text-xl">
-              {" "}
-                {industry.description}
-            </p>
+            <p className="text-xl"> {industry.description}</p>
           </div>
         ))}
       </div>
