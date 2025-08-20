@@ -24,7 +24,7 @@ function Navbar({onOpenModal}) {
       <div className={styles["nav-logo-container"]}>
         <Link href="/">
           <Image
-            src="/assets/logo/tesseract.png"
+            src={"/assets/brand/tesseract.png"}
             className={styles["nav-logo"]}
             width={130}
             height={50}

@@ -19,7 +19,7 @@ function Footer() {
         
 
     <div className={styles['footer-logo-container']}>
-        <Image src="/assets/logo/tesseract.png" className={styles['footer-logo']} width={130} height={50}  alt="logo" />
+        <Image src={"/assets/brand/tesseract.png"} className={styles['footer-logo']} width={130} height={50}  alt="logo" />
     </div>
     <div className={styles['links-container']}>
         <div className={styles['links']}>

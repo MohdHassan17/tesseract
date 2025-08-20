@@ -27,7 +27,7 @@ const caseStudies = [
 export default function CaseStudiesSection() {
   return (
     <section className={` ${styles.caseStudyContainer} py-20 my-16 bg-fixed`}>
-      <Image src={'/assets/section/clientele-bg.png'} width={10} height={10} alt="Background Image" className={styles.caseBG}/>
+      <Image src='/assets/section/clientele-bg.png' width={10} height={10} alt="Background Image" className={styles.caseBG}/>
       <div className="max-w-6xl mx-auto px-4 md:px-8 ">
          
         <div className="flex justify-center items-center mb-10">
