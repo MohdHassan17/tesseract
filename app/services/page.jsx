@@ -43,10 +43,10 @@ function Services() {
         {/* Content Section */}
         <div className={styles.heroWrapper}>
           <div className={styles["hero-content"]}>
-            <h1 className={styles["hero-title"]} data-aos="fade-up">
-              Helping Brands <br />
-              Grow with Digital Solutions
-            </h1>
+            <h1 className="font-[800] text-[#f6f6f6] lg:text-[3rem] text-[2.5rem]" data-aos="fade-up">
+            Helping Brands <br />
+            Grow With Digital Solutions
+          </h1>
             <Button text="View Services" />
           </div>
         </div>

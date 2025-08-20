@@ -63,9 +63,10 @@ export default function Home() {
         <div className={styles.heroWrapper}>
           {/* Content Section */}
           <div className={styles["hero-content"]}>
-            <h1 className={styles["hero-title"]}>
-              Beyond the Code. <br /> Into the Future.
-            </h1>
+             <h1 className="font-[800] text-[#f6f6f6] lg:text-[3rem] text-[2.5rem]" data-aos="fade-up">
+            Beyond the Code. <br />
+            Into the Future.
+          </h1>
             <Button text="Explore Services" href={'/services'} />
           </div>
         </div>
