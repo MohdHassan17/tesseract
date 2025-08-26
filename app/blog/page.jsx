@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "Tesseract",
     images: [
       {
-        url: "https://tesseractdev.org/og-image.jpg",
+        url: "http://tesseractdev.org/_next/image?url=%2Fassets%2Flogo%2FTesseract.png",
         width: 1200,
         height: 630,
         alt: "Tesseract Blog Preview",
