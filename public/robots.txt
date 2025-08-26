@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tesseractdev.org
+
+# Sitemaps
+Sitemap: https://www.tesseractdev.org/sitemap.xml
