@@ -10,6 +10,7 @@ export default function AOSInitializer() {
     AOS.init({
       
       once: true,
+      duration : 1500
     });
   }, []);
 

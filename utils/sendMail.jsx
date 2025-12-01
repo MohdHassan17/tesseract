@@ -5,7 +5,7 @@ export const sendEmail = (form) => {
   const notify = () => toast.success('Message Sent Successfully');
 
   emailjs
-    .sendForm('service_4y2yxr4', 'template_quujo9n', form.current, {
+    .sendForm('service_4y2yxr4', 'template_4pzh0nt', form.current, {
       publicKey: 'Ce0CfIdr7hLaGT4nE',
     })
     .then(
@@ -18,3 +18,4 @@ export const sendEmail = (form) => {
       }
     );
 };
+

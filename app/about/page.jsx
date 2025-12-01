@@ -166,15 +166,9 @@ function About() {
             </div>
 
             <div className="flex gap-4 items-center">
-              <Image
-                src="/assets/card/hassan.webp"
-                alt={`photo`}
-                width={80}
-                height={80}
-                className="rounded-full border-[3px] border-[var(--primary-color)] object-cover"
-              />
+             
               <div>
-                <h3 className="text-lg font-bold text-white"> Muhammad Hassan Naseer</h3>
+                <h3 className="text-lg font-bold text-white"> Rayyan</h3>
                 <p className="text-sm text-gray-300">Founder, Tesseract </p>
               </div>
             </div>

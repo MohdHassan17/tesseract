@@ -47,7 +47,7 @@ function Services() {
             Helping Brands <br />
             Grow With Digital Solutions
           </h1>
-            <Button text="View Services" />
+            <Button text="View Services" href={'#services'}/>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ function Services() {
       </section>
 
       {/* Services Categories */}
-      <div className={`${styles["services-section"]}`}>
+      <div className={`${styles["services-section"]}`} id="services">
         <div className="section-wrapper flex flex-col gap-50  "   >
           {servicesData.map((category) => (
             <div key={category.slug} className="bg-[radial-gradient(circle_at_center_center,_#6e00ff_0%,_transparent_35%)]">

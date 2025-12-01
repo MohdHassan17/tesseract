@@ -42,10 +42,10 @@ function Footer() {
         
         <div className={styles['links']}>
         <h3 className={styles["links-heading"]}>Socials</h3>
-        <Link href='/about'  className={styles['link']} >Instagram</Link>
-         <Link href='/services'  className={styles['link']}>Facebook</Link>
-         <Link href='/blog'  className={styles['link']}>LinkedIn</Link>
-         <Link href='/blog'  className={styles['link']}>X (Twitter)</Link>
+        <Link href='https://www.instagram.com/teserract.dev/'  className={styles['link']} target="_blank" rel="noopener noreferrer">Instagram</Link>
+         <Link href='https://www.facebook.com/profile.php?id=61579463350673'  className={styles['link']} target="_blank" rel="noopener noreferrer">Facebook</Link>
+         <Link href='https://www.linkedin.com/company/tesseract-software-development/'  className={styles['link']} target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+         <Link href='https://twitter.com'  className={styles['link']} target="_blank" rel="noopener noreferrer">X (Twitter)</Link>
         
         </div>
     </div>
