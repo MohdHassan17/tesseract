@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Heading, { EmphasisText } from "@/components/Heading";
 import Ribbon from "@/components/Ribbon";
+import CTASection from "@/shared/CTASection";
 import ExpertiseSection from "@/shared/ExpertiseSection";
 import Impact from "@/shared/Impact";
 import ServicesSection from "@/shared/ServicesSection";
@@ -163,10 +164,12 @@ export default function Home() {
       />
 
       {/* ==== Technologies ==== */}
-      <Technologies/> 
+      <Technologies />
       {/* ==== Impact Section ==== */}
-      <Impact/> 
+      <Impact />
 
+      {/* ==== CTA Section ==== */}
+      <CTASection />
     </>
   );
 }
