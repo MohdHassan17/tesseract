@@ -6,13 +6,43 @@ import ExpertiseSection from "@/shared/ExpertiseSection";
 import Impact from "@/shared/Impact";
 import ServicesSection from "@/shared/ServicesSection";
 import Technologies from "@/shared/Technologies";
-import { ArrowRight, MoveRight } from "lucide-react";
+import { contentfulClient } from "@/lib/contentful";
+import { MoveRight } from "lucide-react";
 import Image from "next/image";
+import { ResolvedHomePage, ResolvedHeroSection, ResolvedPlainContentSection } from "@/types/contentful";
+import { isHeroSection, isPlainContentSection } from "@/lib/contentGuards";
 
-export default function Home() {
+async function getHomePageData() {
+  const entry = await contentfulClient.getEntry("4DztxOVhUCWEGp40K4D7g3", {
+    include: 3, // resolve nested links up to depth 3
+  });
+  return entry as unknown as ResolvedHomePage;
+}
+
+export async function generateMetadata() {
+  const entry = await getHomePageData();
+  const metaData = entry.fields.seo?.fields;
+  return {
+    title: metaData?.metaTitle,
+    description: metaData?.metaDescription,
+  };
+}
+
+export default async function Home() {
+  const homeEntry = await getHomePageData();
+
+  console.log(homeEntry)
+
+  const sections = homeEntry.fields.section ?? [];
+
+  const heroSection = sections.find(isHeroSection) as ResolvedHeroSection | undefined;
+  const aboutSection = sections.find(isPlainContentSection) as ResolvedPlainContentSection | undefined;
+
+  console.log(heroSection?.fields.headline)
+
   return (
     <>
-      {/* ==== Hero Section ==== */}
+  {/* ==== Hero Section ==== */}
       <section
         className="relative w-full min-h-[90vh] bg-cover bg-fixed bg-center"
         style={{ backgroundImage: "url('/images/Home/hero-bg.png')" }}
@@ -132,43 +162,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/*  ==== Expertise Section ===== */}
-      <ExpertiseSection />
 
-      {/* ==== Services Section ==== */}
+    
+
+      <ExpertiseSection />
       <ServicesSection />
 
-      <div className="overflow-hidden"></div>
-      <Ribbon
-        className=" rotate-1 mb-2"
-        items={[
-          "Incbuation",
-          "Acceleration",
-          "Execution",
-          "Ideation",
-          "Innovation",
-          "Excorcism",
-        ]}
-      />
 
-      <Ribbon
-        className=" mt-6 bg-white text-black -rotate-2 "
-        items={[
-          "Incbuation",
-          "Acceleration",
-          "Execution",
-          "Ideation",
-          "Innovation",
-          "Excorcism",
-        ]}
-      />
-
-      {/* ==== Technologies ==== */}
       <Technologies />
-      {/* ==== Impact Section ==== */}
       <Impact />
-
-      {/* ==== CTA Section ==== */}
       <CTASection />
     </>
   );
